@@ -27,6 +27,11 @@ export default {
                 name: 'hero_description',
                 widget: 'markdown',
               },
+              {
+                label: "Body",
+                name: "body",
+                widget: "markdown",
+              }
             ],
           },
         ],
