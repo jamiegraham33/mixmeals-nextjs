@@ -2,7 +2,7 @@ export default {
     cms_manual_init: true,
     backend: {
       name: 'github',
-      repo: 'verticalgrain/mixmeals-nextjs',
+      repo: 'jamiegraham33/mixmeals-nextjs',
       branch: 'main',
     },
     media_folder: 'public/img',
