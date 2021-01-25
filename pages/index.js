@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import styles from '../styles/Home.module.css'
-import { react as HomePage } from '../content/pages/home.md';
+import fm from '../content/pages/home.md';
 
 export default function Home() {
   return (
@@ -12,10 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <HomePage />
+        { fm.attributes.hero_title }
+        { fm.attributes.hero_description }
+        { fm.html }
       </main>
 
       <footer className={styles.footer}>
