@@ -6,7 +6,8 @@ hero_description: >-
   info.
 
 
-  ![](img/pxl_20210116_183719001.jpg)
+  ![]()
 ---
-
 blarg
+
+![Test alt text](img/pxl_20210116_183719001.jpg "Test title")
